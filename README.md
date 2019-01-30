@@ -30,8 +30,7 @@ participate in an overlay network.  A node must have a container or
 service task scheduled on it attached to an overlay network to be 
 considered an overlay network peer.  Manager nodes that are not running
 workloads may not be able to accurately count the number of IP addresses
-on overlay networks scheduled on worker nodes.  In this case, we use
-an estimate of 25% of the cluster nodes as peers.
+on overlay networks scheduled on worker nodes.  In this case, we approximate.
 
 Building the Container
 ======================
