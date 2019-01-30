@@ -20,7 +20,8 @@ The script flags several potential conditions for each overlay:
     cluster size scales up to a certain number of nodes
   * IP address space is allocated to > 80% capacity
 
-Note: Under certain conditions, it may not be possible to accurately
+####  Note: 
+Under certain conditions, it may not be possible to accurately
 count the number of IP addresses on a network due to Docker's
 networking state distribution architecture.
 
@@ -34,8 +35,9 @@ an estimate of 25% of the cluster nodes as peers.
 
 Building the Container
 ======================
+```
 docker build -t support/ip-util-check .
-
+```
 
 Running the Container
 =====================
