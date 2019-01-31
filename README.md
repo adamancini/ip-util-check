@@ -43,5 +43,6 @@ Running the Container
 ```
 docker run -it --rm \
  -v /var/run/docker.sock:/var/run/docker.sock \
+ -v /var/run/docker/swarm/control.sock:/var/run/swarmd.sock \
  support/ip-util-check
 ```
