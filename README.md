@@ -35,7 +35,7 @@ on overlay networks scheduled on worker nodes.  In this case, we approximate.
 Building the Container
 ======================
 ```
-docker build -t support/ip-util-check .
+docker build -t docker/ip-util-check .
 ```
 
 Running the Container
