@@ -1,4 +1,4 @@
-FROM golang:1.11.0-alpine
+FROM golang:1.11-alpine
 
 RUN apk add --no-cache --update bash ca-certificates curl make git openssh-client unzip jq docker
 
