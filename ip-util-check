@@ -4,7 +4,7 @@
 # export DOCKER_HOST
 # export DOCKER_TLS_VERIFY
 
-# set -e
+set -e
 
 # Per-network state keyed on network ID
 #
